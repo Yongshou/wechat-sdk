@@ -58,3 +58,4 @@ function extractParamsFromUrl(url: string): { url: string; params: { u: string |
 // 导出API服务功能
 export * from './universal-api.service';
 export { extractParamsFromUrl };
+export * from './OrderProcessor';
