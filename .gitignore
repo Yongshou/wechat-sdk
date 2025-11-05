@@ -1,0 +1,46 @@
+# 依赖目录
+node_modules/
+pnpm-lock.yaml
+package-lock.json
+
+# 构建输出
+**/dist/
+**/build/
+**/out/
+
+# 临时文件
+**/.temp/
+**/.tmp/
+
+# 编译生成的文件
+**/*.js
+**/*.js.map
+**/*.d.ts
+**/*.d.ts.map
+
+# TypeScript 编译信息
+**/tsconfig.tsbuildinfo
+
+# 测试报告
+**/coverage/
+**/reports/
+
+# 日志文件
+**/*.log
+
+# IDE 配置
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# 操作系统文件
+.DS_Store
+Thumbs.db
+
+# 保留源代码和类型声明源文件
+!**/src/**/*.ts
+!**/types/**/*.d.ts

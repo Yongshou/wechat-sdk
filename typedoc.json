@@ -1,0 +1,15 @@
+{
+  "entryPoints": ["packages/api/src", "packages/core/src", "packages/storage/src"],
+  "out": "docs",
+  "name": "WeChat SDK API 文档",
+  "readme": "README.md",
+  "theme": "default",
+  "navigationLinks": {
+    "GitHub": "https://github.disney.com/SHDR-Projects/wechat-sdk"
+  },
+  "categorizeByGroup": true,
+  "sort": ["source-order", "alphabetical"],
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "hideGenerator": true
+}

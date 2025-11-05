@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "module": "es2015",
+    "declaration": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+    "ignoreDeprecations": "5.0",
+    "typeRoots": ["./node_modules/@types"],
+    "paths": {
+      "@shdr/wechat-sdk-api": ["./packages/api/src/index", "./packages/api/dist/index"],
+      "@shdr/wechat-sdk-storage": ["./packages/storage/src/index", "./packages/storage/dist/index"],
+      "@shdr/wechat-sdk-core": ["./packages/core/src/index", "./packages/core/dist/index"]
+    }
+  }
+}
