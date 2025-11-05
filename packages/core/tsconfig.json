@@ -1,0 +1,19 @@
+{
+  "extends": "../../tsconfig.json",
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "composite": true,
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "paths": {
+      "@shdr/wechat-sdk-api": ["../api/dist"],
+      "@shdr/wechat-sdk-storage": ["../storage/dist"]
+    }
+  },
+  "include": ["src/**/*", "types/**/*"],
+  "references": [
+    { "path": "../api" },
+    { "path": "../storage" }
+  ]
+}
